@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for num in range(0, 99):
-    print('{:02d}, '.format(num), end='')
-print('99')
+str = "Holberton School"
+print(3 * str)
+print(str[:9])
