@@ -1,9 +1,9 @@
 #!/usr/bin/phython3
 def delete_at(my_list=[], idx=0):
     length = len(my_list)
-    if idx < 0:
+    if idx > length - 1:
         return my_list
-    elif idx > length - 1:
+    elif idx < 0:
         return my_list
     del my_list[idx]
     return my_list
